@@ -1,0 +1,154 @@
+*{
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+html, body, .content{
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page.banner{
+    background: url(https://source.unsplash.com/1200x600?abstract) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 80px;
+}
+
+.banner img{
+    width: 100%
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+li{
+    text-align: center;
+    width: auto;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+li a{
+    color: gray;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry-content{
+    width: 70%;
+    background: rgba(200,200,200,0.7);
+    padding: 20px;
+}
+
+/* Accueil */
+.page {
+    background: url(https://source.unsplash.com/1200x600?abstract) no-repeat;
+    background-size: cover;
+}
+
+.home h1{
+    font-size: 300%;
+}
+
+/* Pages */
+
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 200%;
+    text-shadow: gray 2px 2px 2px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    /** Boutique **/
+.produits{
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.page-boutique .produit{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(150,150,150) 0 0 15px 0px;
+    padding: 8px;
+}
+
+.page-boutique .row{
+    display: flex;
+    color: gray;
+}
+
+.page-boutique .column{
+    flex: 1;
+}
+
+.page-boutique .column2{
+    text-align: right;
+}
+
+.page-boutique .produit .row2, .produit .row6{
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.page-boutique .row6 .column2{
+    background: green;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    font-weight: normal;
+}
+
+    /** Produit **/
+
+
+
+
+/* Contact */
+.page-contact{
+    background: url(https://source.unsplash.com/1200x600?abstract) no-repeat;
+    background-size: cover;
+}
+
+.page-contact form{
+    background: rgba(220, 220, 220, 0.5);
+    padding: 8px;
+}
+
+/* Formulaire */
+
+form, form div{
+    width: auto;
+}
