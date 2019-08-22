@@ -6,8 +6,6 @@ require_once 'layout/head.php';
 <div class="row page page-search content">
     <div class="col-xs-12 entry-content">
 
-
-
         <form action="search-process.php" method="POST">
             <div>
                 <label for="mail">Email de l'utilisateur cherché : </label>

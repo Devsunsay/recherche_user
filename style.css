@@ -87,7 +87,7 @@ ul{
 }
 
     /** Boutique **/
-.produits{
+.users{
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.page-boutique .produit{
+.user{
     width: 20%;
     margin: auto;
     display: flex;
@@ -104,26 +104,26 @@ ul{
     padding: 8px;
 }
 
-.page-boutique .row{
+.row{
     display: flex;
     color: gray;
 }
 
-.page-boutique .column{
+.column{
     flex: 1;
 }
 
-.page-boutique .column2{
+.column2{
     text-align: right;
 }
 
-.page-boutique .produit .row2, .produit .row6{
+.user .row2, .user .row6{
     color: black;
     font-weight: bold;
     font-size: 120%;
 }
 
-.page-boutique .row6 .column2{
+.row6 .column2{
     background: green;
     color: white;
     padding: 4px;
@@ -131,7 +131,7 @@ ul{
     font-weight: normal;
 }
 
-    /** Produit **/
+    /** user **/
 
 
 

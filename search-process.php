@@ -18,5 +18,4 @@
     }
 
     $user = $users[$key];
-    require_once 'template-parts/single-user.php';   
-    ?>
+    require_once 'single-user.php';   

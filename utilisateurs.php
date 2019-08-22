@@ -6,8 +6,8 @@ require_once 'layout/head.php';
 
 <div class="row page page-utilisateurs content">
     <div class="col-xs-12 entry-content">
-        <?php require_once 'data/users-labels.php'; ?>
-        <?php require_once 'template-parts/users-labels-list.php'; ?>    
+        <?php require_once 'data/users-data.php'; ?>
+        <?php require_once 'template-parts/grid-users.php'; ?>    
     </div>
 </div>
 
