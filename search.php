@@ -1,6 +1,7 @@
 <?php 
 $title_page = "Recherche";
 require_once 'layout/head.php';
+require_once 'layout/navbar.php';
 ?>
 
 <div class="row page page-search content">
